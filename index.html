@@ -4,13 +4,111 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Bata Bit</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <img src="./assets/img/logo.svg" alt="Bata Bit logo" />
+      <div class="header__title-container">
+        <h1>
+          La pr&oacute;xima revoluci&oacute;n en el intercambio de
+          criptomonedas.
+        </h1>
+        <p>
+          Batatabit te ayuda a navegar entre los diferentes precios y
+          tendencias.
+        </p>
+        <a href="#" class="header__button"
+          >Conoce Nuestros Planes <span></span
+        ></a>
+      </div>
+    </header>
     <main>
-      <section></section>
+      <section class="main__exchange-section">
+        <div class="exchange-section__bitcoin-img"></div>
+        <h2 class="exchange-section__title">
+          Visibilizamos todas las tasas de cambio.
+        </h2>
+        <p class="exchange-section__paragraph">
+          Traemos información en tiempo real de las casas de cambio y las
+          monedas más importantes del mundo.
+        </p>
+        <span class="exchange-section__secondary-title">Monedas</span>
+        <section class="exchange-section__list">
+          <div class="list__grid">
+            <div class="card">Bitcoin</div>
+            <div class="card money">
+              <span>$1.96</span>
+              <img
+                src="./assets/icons/trending-down.svg"
+                alt="trending down image"
+              />
+            </div>
+            <div class="card">Ethereum</div>
+            <div class="card money">
+              <span>$0.07</span>
+              <img
+                src="./assets/icons/trending-up.svg"
+                alt="trending up image"
+              />
+            </div>
+            <div class="card">Ripple</div>
+            <div class="card money">
+              <span>$2.15</span>
+              <img
+                src="./assets/icons/trending-down.svg"
+                alt="trending down image"
+              />
+            </div>
+            <div class="card">Stellar</div>
+            <div class="card money">
+              <span>$4.96</span>
+              <img
+                src="./assets/icons/trending-down.svg"
+                alt="trending down image"
+              />
+            </div>
+          </div>
+          <a href="#" class="list__button"><span></span></a>
+        </section>
+        <span class="exchange-section__update-text"
+          ><strong>Actualizado:</strong> 19 Julio 23:45</span
+        >
+        <span class="exchange-section__secondary-title commisions__title"
+          >Comisiones</span
+        >
+        <section class="exchange-section__list">
+          <div class="list__grid">
+            <div class="card">Bitrade</div>
+            <div class="card">
+              <span class="commisions__money">$12.96</span>
+            </div>
+            <div class="card">Bitpreco</div>
+            <div class="card money">
+              <span class="commisions__money">$13.07</span>
+            </div>
+            <div class="card">Novadax</div>
+            <div class="card money">
+              <span class="commisions__money">$13.15</span>
+            </div>
+            <div class="card">Coinext</div>
+            <div class="card money">
+              <span class="commisions__money">$14.96</span>
+            </div>
+          </div>
+          <a href="#" class="list__button"><span></span></a>
+        </section>
+        <span class="exchange-section__update-text commisions__update-text"
+          ><strong>Actualizado:</strong> 19 Julio 23:45</span
+        >
+      </section>
       <section></section>
       <section></section>
       <section></section>
