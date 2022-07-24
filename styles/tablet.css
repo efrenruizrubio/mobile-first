@@ -1,0 +1,17 @@
+.exchange-container__slider {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    background-image: url('../assets/img/bitcoinbaby2x.png');
+    background-attachment: fixed;
+}
+
+.plans-container__slider {
+    justify-content: center;
+}
+
+footer section {
+    justify-content: center;
+}

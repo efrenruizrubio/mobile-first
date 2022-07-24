@@ -1,0 +1,23 @@
+.exchange-container__slider {
+    overflow-x: hidden;
+}
+
+.details-container__cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.details-container__card:not(:last-of-type) {
+    margin: 0;
+}
+
+.image-container {
+    background-image: url('../assets/img/bitcoinbaby4x.webp');
+}
+
+.plans-container__slider {
+    overflow-x: hidden;
+}
